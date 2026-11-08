@@ -1,5 +1,5 @@
-import { $, $$, esc, ic, icons, render, shape, toast, countUp, fmtPts, ordinal, startClock, ringMarkup, confetti, mountStage, flip, wakeLock } from './ui.js?v=3';
-import { sound, bindSoundButton } from './sound.js?v=3';
+import { $, $$, esc, ic, icons, render, shape, toast, countUp, fmtPts, ordinal, startClock, ringMarkup, confetti, mountStage, flip, wakeLock } from './ui.js?v=4';
+import { sound, bindSoundButton } from './sound.js?v=4';
 
 const screen = $('#screen');
 const pinPill = $('#pinPill');

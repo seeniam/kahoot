@@ -2,6 +2,8 @@
 
 Quiz multiplayer em tempo real, no estilo Kahoot, sobre **Metodologias Ativas de Aprendizagem** (Didática Aplicada à Enfermagem · CEST). O apresentador projeta a sala, a turma entra pelo celular com um PIN e todos respondem às mesmas perguntas ao mesmo tempo. No final, um pódio animado mostra os três primeiros colocados.
 
+**Online:** apresentador em **https://pulso-quiz.onrender.com/host** · jogadores em **https://pulso-quiz.onrender.com** (plano grátis do Render: o primeiro acesso depois de um tempo parado pode levar ~1 minuto).
+
 ## Como funciona
 
 | Apresentador (projetor) | Jogador (celular) |

@@ -1982,3 +1982,13 @@ button.player-chip:hover {
     stroke-dashoffset: 0;
   }
 }
+
+/* apresentador em tela estreita: só o ícone da marca, para caber PIN e progresso */
+@media (max-width: 560px) {
+  .is-host .brand-name {
+    display: none;
+  }
+}
+.brand-name {
+  white-space: nowrap;
+}
