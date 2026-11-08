@@ -49,7 +49,11 @@ Para simular uma turma numa sala aberta: `node scripts/bots.js <PIN> 8`.
 
 ## Publicando
 
-O app é um servidor Node (Express + Socket.IO) com estado em memória, então precisa de um host que mantenha um processo rodando com WebSocket — por exemplo **Render**, **Railway** ou **Fly.io**. O repositório já inclui `render.yaml`: no Render, crie um *Blueprint* apontando para este repositório. Defina `PUBLIC_URL` se quiser fixar o endereço usado no QR code.
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/seeniam/kahoot)
+
+O app é um servidor Node (Express + Socket.IO) com estado em memória, então precisa de um host que mantenha um processo rodando com WebSocket — por exemplo **Render**, **Railway** ou **Fly.io**. O repositório já inclui `render.yaml`: clique no botão acima (ou, no Render, crie um *Blueprint* apontando para este repositório). Defina `PUBLIC_URL` se quiser fixar o endereço usado no QR code.
+
+No plano grátis do Render o serviço "dorme" após 15 minutos sem uso e leva cerca de 1 minuto para acordar: abra a página do apresentador alguns minutos antes da aula.
 
 ## Estrutura
 
