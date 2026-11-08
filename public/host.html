@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#062a33" />
+  <title>Pulso Quiz · Apresentador</title>
+  <meta name="description" content="Crie uma sala e conduza o quiz de Metodologias Ativas de Aprendizagem." />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,600..800,0..100,0..1&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/app.css?v=3" />
+</head>
+<body class="is-host">
+  <div class="app">
+    <header class="topbar">
+      <a class="brand" href="/host" aria-label="Pulso Quiz, apresentador">
+        <span class="brand-mark"><i data-lucide="activity"></i></span>
+        Pulso Quiz
+      </a>
+      <span class="pill" id="progressPill" hidden></span>
+      <span class="pill pill--pin" id="pinPill" hidden></span>
+      <button class="icon-btn" id="soundBtn" type="button"></button>
+      <button class="icon-btn" id="fsBtn" type="button" aria-label="Tela cheia" title="Tela cheia"><i data-lucide="maximize"></i></button>
+      <button class="icon-btn" id="menuBtn" type="button" aria-label="Mais opções" aria-expanded="false" hidden><i data-lucide="more-vertical"></i></button>
+    </header>
+    <main id="screen" class="screen"></main>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/vendor/lucide.js"></script>
+  <script type="module" src="/js/host.js?v=3"></script>
+</body>
+</html>
